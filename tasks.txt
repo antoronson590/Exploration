@@ -17,3 +17,10 @@ Tasks:
 4.3 Now from the current position, our mobot calculates path to next control point( if next control point is still blocked i.e. in search of next control point, if mobot roams for a longer time, the successive control point is chosen..
 4.4 Thus the aim of mobot is to return to its original track. This avoids confusion and saves memory.
 
+08.01.2016
+-> The Model has been updated with the following changes.
+---> Different velocity functions are developed ( forward, reverse, turns, rotation)
+---> Calculation modules to calculate the position based on the trajectory data(velocity, time) for straight path and rotational path (Ref:. "A Tutorial and Elementary Trajectory Model for the Differential Steering System of Robot Wheel Actuators" by G.W.Lucas) are developed.
+---> The developed methodologies needs to be validated.
+
+
