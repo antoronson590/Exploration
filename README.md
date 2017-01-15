@@ -17,3 +17,5 @@ Tasks:
 4.2 Now using vision and proximity sensor, when a block is identified, our mobot choose to block the respective position of block determined as collision.
 4.3 Now from the current position, our mobot calculates path to next control point( if next control point is still blocked i.e. in search of next control point, if mobot roams for a longer time, the successive control point is chosen..
 4.4 Thus the aim of mobot is to return to its original track. This avoids confusion and saves memory.
+
+Note: To run the simulation model, non limited educational version of V-Rep software from Coppelia Robotics is required. The download executable can be found at http://www.coppeliarobotics.com/downloads.html
